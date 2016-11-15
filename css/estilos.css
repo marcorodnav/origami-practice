@@ -12,6 +12,9 @@ body {
     width: 900px;
     background-color: #fff;
     margin: 0 auto;
+    -webkit-box-shadow: 0 7px 15px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 7px 15px rgba(0,0,0,0.4);
+    box-shadow: 0 7px 15px rgba(0,0,0,0.4);
 }
 
 header, footer, #contenido {
@@ -47,6 +50,9 @@ nav a {
     text-decoration: none;
     padding: 10px;
     margin-top: 8px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 nav a:hover {
@@ -67,6 +73,10 @@ nav #logo {
     text-indent: 500px;
     overflow: hidden;
     margin-right: 30px;
+    -webkit-box-shadow: 0 7px 15px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0 7px 15px rgba(0,0,0,0.4);
+    box-shadow: 0 7px 15px rgba(0,0,0,0.4);
+    z-index: 1;
 }
 
 #imagen-encabezado {
@@ -125,6 +135,9 @@ nav #logo {
     padding: 10px;
     text-decoration: none;
     color: #58595b;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 #noticias > div > a > span {
@@ -137,6 +150,9 @@ nav #logo {
 
 #noticias > div > a > p {
     margin: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 #noticias > div > a:hover {
@@ -232,6 +248,9 @@ footer div a {
     overflow: hidden;
     background-image: url(../imagenes/iconos-sociales.png);
     background-repeat: no-repeat;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 footer div #facebook {
@@ -310,6 +329,9 @@ footer div #twitter:hover {
     color: #00adee;
     font-size: 16px;
     margin: 5px 5px 0 30px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 #fases a:hover {
@@ -362,6 +384,9 @@ footer div #twitter:hover {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .derecha a:hover {
@@ -421,6 +446,9 @@ footer div #twitter:hover {
     padding-left: 50px;
     margin-left: 100px;
     padding-top: 10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 .documentos a:hover {
